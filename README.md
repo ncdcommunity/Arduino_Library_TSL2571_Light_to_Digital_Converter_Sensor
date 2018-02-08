@@ -46,11 +46,11 @@ How to Use the TSL2571 Arduino Library
 
 The TSL2571 has a number of settings, which can be configured based on user requirements.
           
-1.One shot mode:The following command is used to DISABLE the one shot mode..
+1.Accessing time setting:The following command is used to set the accessing time.
 
             tsl.setATime(ATIME_2_72MS);                 // Cycles: 1, Time: 2.72 ms Max Count: 1024
             
-2.Wait time setting:The following command is used to set the wait timek..
+2.Wait time setting:The following command is used to set the wait time.
 
             tsl.setWTime(WTIME_1);                      // Wait Time: 1, Time (WLONG = 0): 2.72 ms Time (WLONG = 1):  0.032 sec
                    
